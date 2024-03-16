@@ -1,0 +1,76 @@
+header {
+  height: 56px;
+  padding: 0 16px;
+  /* background-color: rosybrown; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  display: flex;
+}
+.left {
+  width: 240px;
+  /* background-color: gray; */
+  height: 100vh;
+  padding: 16px;
+}
+.right {
+  /* background-color: gold; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+}
+main .right .top {
+  /* background-color: green ; */
+  display: flex;
+  gap: 8px
+;
+}
+main .right .top span {
+  background-color: #2e2e2e;
+  color: #f0f0f0;
+  padding: 8px 12px;
+  border-radius: 12px;
+}
+main .right .bottom {
+  /* background-color: lightcyan; */
+  flex: 1;
+}
+main .right .bottom .content{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* background-color: lightslategray; */
+
+}
+main .right .bottom .description{
+    gap: 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+main .right .bottom .description img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+main .right .bottom .content .name{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+main .right .bottom .description h4, p {
+    margin: 0;
+   
+}
+main .right .bottom .content img{
+    border-radius: 16px;
+}
+.name p{
+    color: #aaaaaa;
+}
